@@ -78,7 +78,7 @@ export default function Game() {
 
   return (
     <>
-    <div>{status}</div>
+    <div className="gameStatus">{status}</div>
       <div className="board-row">
         <Square
           value={squares[0]}
